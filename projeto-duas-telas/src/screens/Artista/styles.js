@@ -12,16 +12,17 @@ export const ViewHeader = styled.View`
 `;
 
 export const Title = styled.Text`
-    color: #03A9F4;
-    font-size: 16px;
+    color: #00BCD4;
+    font-size: 14px;
     margin: 15px 0 0 20px;
+    font-weight: 700;
 `;
 
 export const SubTitle = styled.Text`
     color: #FFF;
     font-size: 30px;
     font-weight: 700;
-    margin-left: 20px;
+    margin: 0 0 20px 20px;
 `;
 
 export const ViewContainer = styled.View`
@@ -86,6 +87,21 @@ export const TextArtista1 = styled.Text`
 
 export const TextArtista2 = styled.Text`
     color: #FFF;
-    font-size: 18px;
+    font-size: 20px;
     margin: auto;
+    font-weight: 800;
+`;
+
+export const ViewFooter = styled.View`
+    background-color: #212121;
+    height: 70px;
+    width: 97%;
+    margin: auto;
+    border-radius: 10px;
+    justify-content: center;
+    top: 9%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
 `;

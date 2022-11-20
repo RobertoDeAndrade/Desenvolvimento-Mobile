@@ -30,21 +30,39 @@ export const MyContainer = styled.View`
     border-radius: 5px;
 `;
 
+export const ViewCadastro = styled.View`
+    background-color: #757575;
+    flex-direction: row;
+    padding: 10px;
+`;
+
+export const ViewLogin = styled.View`
+    flex-direction: row;
+    padding: 10px;
+`;
+
 export const TextCadastro = styled.Text`
     color: #fff;
     font-size: 16px;
     text-align: left;
-    background-color: #757575;
-    padding: 10px;
     font-weight: 600;
+    margin-left: 15px;
 `;
 
 export const TextLogin = styled.Text`
     color: #fff;
     font-size: 16px;
     text-align: left;
-    padding: 10px;
     font-weight: 600;
+    margin-left: 15px;
+`;
+
+export const TextEmail = styled.Text`
+    color: #fff;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 600;
+    margin: 5px 0 5px 15px;
 `;
 
 export const InputLogin = styled.TextInput`
@@ -54,11 +72,12 @@ export const InputLogin = styled.TextInput`
     border: 1px solid #757575;
     margin: 0 auto;
     padding: 10px;
+    color: #757575;
 `;
 
 export const MyButton = styled.TouchableOpacity`
     background-color: #03A9F4;
-    border-radius: 30px;
+    border-radius: 25px;
     height: 40px;
     width: 325px;
     align-items: center;

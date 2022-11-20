@@ -11,10 +11,10 @@ export function StackRoutes (){
         screenOptions = {{
             headerShown: false,
         }}>
-            {/* <Screen
+            <Screen
                 name="Login"
                 component={Login}
-            /> */}
+            />
                  <Screen
                 name="Artista"
                 component={Artista}
