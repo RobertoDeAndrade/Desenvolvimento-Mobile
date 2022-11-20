@@ -6,15 +6,15 @@ import { Artista } from "../screens/Artista";
 const {Screen, Navigator } = createNativeStackNavigator();
 
 export function StackRoutes (){
-    return(
+    return (
         <Navigator 
         screenOptions = {{
             headerShown: false,
         }}>
-            <Screen
+            {/* <Screen
                 name="Login"
                 component={Login}
-            />
+            /> */}
                  <Screen
                 name="Artista"
                 component={Artista}

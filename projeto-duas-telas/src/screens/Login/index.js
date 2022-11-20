@@ -7,7 +7,7 @@ export const Login = () => {
 
   return (
     <Container>
-      <Logo source={require('../../../assets/amazon-logo.png')} resizeMode='stretch' />
+      <Logo source={require('../../../assets/amazon-logo.png')} resizeMode='contain' />
       <Title>Bem-vindo</Title>
       <MyContainer>
         <TextCadastro>O - Criar Conta. É novo na Amazon?</TextCadastro>
