@@ -92,16 +92,6 @@ export const TextArtista2 = styled.Text`
     font-weight: 800;
 `;
 
-export const ViewFooter = styled.View`
-    background-color: #212121;
-    height: 70px;
-    width: 97%;
-    margin: auto;
-    border-radius: 10px;
-    justify-content: center;
-    top: 9%;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 25px;
+export const ViewNavbar = styled.View`
+   top: 18%;
 `;

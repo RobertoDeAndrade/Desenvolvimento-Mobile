@@ -1,23 +1,9 @@
 import { StatusBar } from 'expo-status-bar';
 import { useNavigation } from "@react-navigation/native";
-import { 
-  Container, 
-  SubTitle, 
-  Text1, 
-  Title, 
-  ViewHeader, 
-  Text2, 
-  ViewContainer, 
-  ViewContainer1, 
-  ViewContainer2,  
-  ViewArtista,
-  ImageArtista,
-  TextArtista1,
-  TextArtista2,
-  ViewFooter,
-} from './styles';
+import { Container, SubTitle, Text1, Title, ViewHeader, Text2, ViewContainer, ViewContainer1, ViewContainer2, ViewArtista, ImageArtista, TextArtista1, TextArtista2, ViewNavbar } from './styles';
 import { Ionicons } from "@expo/vector-icons";
 import { TouchableOpacity } from 'react-native';
+import { MyNavbar } from "../../components/MyNavbar/index";
 
 export const Artista = () => {
   const navigation = useNavigation();
@@ -33,9 +19,9 @@ export const Artista = () => {
       <SubTitle>ARTISTAS</SubTitle>
       <ViewContainer>
         <ViewContainer1>
-          <Ionicons name={"swap-vertical-outline"} size={20} color={"#ddd"}/>
+          <Ionicons name={"swap-vertical-outline"} size={20} color={"#ddd"} />
           <Text1>Classificar</Text1>
-          <Ionicons name={"chevron-down-outline"} size={20} color={"#ddd"}/>
+          <Ionicons name={"chevron-down-outline"} size={20} color={"#ddd"} />
         </ViewContainer1>
         <ViewContainer2>
           <Text2>Baixadas</Text2>
@@ -61,23 +47,9 @@ export const Artista = () => {
         <TextArtista1>Volbeat</TextArtista1>
         <TextArtista2>...</TextArtista2>
       </ViewArtista>
-      <ViewFooter>
-        <TouchableOpacity onPress={() => console.log("Início")}>
-          <Ionicons name={"home-outline"} size={30} color={"#ddd"} />
-        </TouchableOpacity>
-        <TouchableOpacity onPress={() => console.log("Encontrar")}>
-          <Ionicons name={"search-outline"} size={30} color={"#ddd"} />
-        </TouchableOpacity>
-        <TouchableOpacity onPress={() => console.log("Biblioteca")}>
-          <Ionicons name={"person-outline"} size={30} color={"#00BCD4"} />
-        </TouchableOpacity>
-        <TouchableOpacity onPress={() => console.log("Alexa")}>
-          <Ionicons name={"radio-button-off-outline"} size={30} color={"#ddd"} />
-        </TouchableOpacity>
-        <TouchableOpacity onPress={() => console.log("Upgrade")}>
-          <Ionicons name={"star-outline"} size={30} color={"#ddd"} />
-        </TouchableOpacity>
-      </ViewFooter>
+      <ViewNavbar>
+        <MyNavbar />
+      </ViewNavbar>
       <StatusBar style="auto" />
     </Container>
   );

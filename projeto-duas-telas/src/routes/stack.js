@@ -15,7 +15,7 @@ export function StackRoutes (){
                 name="Login"
                 component={Login}
             />
-                 <Screen
+                <Screen
                 name="Artista"
                 component={Artista}
             />
