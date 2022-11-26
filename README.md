@@ -1,2 +1,2 @@
-# Desenvolvimento-Mobile
-Códigos da matéria de Desenvolvimento Mobile (React Native) do Serratec
+# Projeto-clone-app-2-telas
+Projeto individual feito no Serratec na materia de Desenvolvimento Mobile com React Native
